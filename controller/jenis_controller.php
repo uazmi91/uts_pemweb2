@@ -2,7 +2,7 @@
 include_once('../classes/database.php');
 include_once('../classes/jenisproduk.php');
 
-$kategori_produk = new KategoriProduk();
+$kategori_produk = new JenisProduk();
 
 $action = $_GET['action'];
 
