@@ -22,7 +22,7 @@ if ($action == 'create') {
 }
 
 if ($result) {
-    header('Location: ../admin/jenis_produk.php');
+    header('Location: ../admin/list_jenis.php');
 } else {
     echo "Gagal";
 }
